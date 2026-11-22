@@ -1,49 +1,83 @@
-# GitCord Monolithic Template
-# This file replaces the directory-based template structure with a single YAML file
-# containing all categories and channels
-
+# GitCord Template for ФСВНГ
 server:
-  name: "GitCord"
+  name: "ФСВНГ РП"
   version: "2.0"
-  description: "GitCord template - now in monolithic format"
-  releaseNotes: "Converted from directory-based structure to single YAML file"
+  description: "Сервер ФСВНГ"
+  releaseNotes: "Создание каналов по шаблону"
 
-categories:
-  - name: "Boilerplate"
-    type: "category"
-    channels:
-      - name: "moderator-only"
-        type: "text"
-        topic: "Private channel for moderators only"
-        nsfw: false
-      - name: "rules"
-        type: "text"
-        topic: "Server rules and guidelines"
-        nsfw: false
+  categories:
+    - name: "⚖️ | Законодательство"
+      type: "category"
+      channels:
+        - name: "┊・📜・указы-президента"
+          type: "text"
+        - name: "┊・📝・правки-законодательства"
+          type: "text"
+        - name: "┊・📁・публичные-документы"
+          type: "text"
 
-  - name: "Main Area"
-    type: "category"
-    channels:
-      - name: "general"
-        type: "text"
-        topic: "General chat for everyone"
-        nsfw: false
-      - name: "memes"
-        type: "text"
-        topic: "Drop your memes here"
-        nsfw: false
-      - name: "off-topic"
-        type: "text"
-        topic: "Talk about anything unrelated to the main server theme"
-        nsfw: false
+    - name: "⚜️ | Команда Проекта"
+      type: "category"
+      channels:
+        - name: "┊・⚜️・правила-организации"
+          type: "text"
+        - name: "┊・📝・правки-правил"
+          type: "text"
+        - name: "┊・✅・уведомления"
+          type: "text"
+        - name: "┊・📢・новости-организации"
+          type: "text"
 
-  - name: "Voice Chats"
-    type: "category"
-    channels:
-      - name: "vc1"
-        type: "voice"
-        topic: "The First VC"
-        nsfw: false
-      - name: "vc2"
-        type: "voice"
-        nsfw: true 
+    - name: "🛡️ | Дежурная Часть ФСВНГ"
+      type: "category"
+      channels:
+        - name: "┊・☎️・вызов-сотрудника"
+          type: "text"
+        - name: "┊・🎖️・доска-почета"
+          type: "text"
+        - name: "┊・📢・новости-граждан"
+          type: "text"
+        - name: "┊・⛔・чёрный-список-фсвнг"
+          type: "text"
+        - name: "┊・📢・пропаганда"
+          type: "text"
+        - name: "┊・💬・гражданский-чат"
+          type: "text"
+        - name: "┊・🏅・новенькие"
+          type: "text"
+        - name: "┊・🚨・жалобы-на-сотрудников"
+          type: "text"
+
+    - name: "🛠️ | Администрация"
+      type: "category"
+      channels:
+        - name: "┊・🔵・чат-админов"
+          type: "text"
+        - name: "┊・🛠️・логи-модерации"
+          type: "text"
+        - name: "┊・⚙️・настройки-сервера"
+          type: "text"
+
+    - name: "📥 | Поступление в ФСВНГ"
+      type: "category"
+      channels:
+        - name: "┊・📝・заявление-на-службу"
+          type: "text"
+        - name: "┊・📝・заявление-на-перевод"
+          type: "text"
+
+    - name: "🎙️ | Голосовые каналы"
+      type: "category"
+      channels:
+        - name: "┊・🔊・войс-1"
+          type: "voice"
+        - name: "┊・🏢・1-1"
+          type: "voice"
+        - name: "┊・🏢・1-2"
+          type: "voice"
+        - name: "┊・🏢・2-1"
+          type: "voice"
+        - name: "┊・🏢・2-2"
+          type: "voice"
+        - name: "┊・🎵・музыка"
+          type: "voice"
