@@ -1,83 +1,74 @@
-# GitCord Template for ФСВНГ
 server:
   name: "ФСВНГ РП"
   version: "2.0"
   description: "Сервер ФСВНГ"
-  releaseNotes: "Создание каналов по шаблону"
-
   categories:
     - name: "⚖️ | Законодательство"
-      type: "category"
       channels:
         - name: "┊・📜・указы-президента"
-          type: "text"
+          type: text
         - name: "┊・📝・правки-законодательства"
-          type: "text"
+          type: text
         - name: "┊・📁・публичные-документы"
-          type: "text"
+          type: text
 
     - name: "⚜️ | Команда Проекта"
-      type: "category"
       channels:
         - name: "┊・⚜️・правила-организации"
-          type: "text"
+          type: text
         - name: "┊・📝・правки-правил"
-          type: "text"
+          type: text
         - name: "┊・✅・уведомления"
-          type: "text"
+          type: text
         - name: "┊・📢・новости-организации"
-          type: "text"
+          type: text
 
     - name: "🛡️ | Дежурная Часть ФСВНГ"
-      type: "category"
       channels:
         - name: "┊・☎️・вызов-сотрудника"
-          type: "text"
+          type: text
         - name: "┊・🎖️・доска-почета"
-          type: "text"
+          type: text
         - name: "┊・📢・новости-граждан"
-          type: "text"
+          type: text
         - name: "┊・⛔・чёрный-список-фсвнг"
-          type: "text"
+          type: text
         - name: "┊・📢・пропаганда"
-          type: "text"
+          type: text
         - name: "┊・💬・гражданский-чат"
-          type: "text"
+          type: text
         - name: "┊・🏅・новенькие"
-          type: "text"
+          type: text
         - name: "┊・🚨・жалобы-на-сотрудников"
-          type: "text"
+          type: text
 
     - name: "🛠️ | Администрация"
-      type: "category"
       channels:
         - name: "┊・🔵・чат-админов"
-          type: "text"
+          type: text
         - name: "┊・🛠️・логи-модерации"
-          type: "text"
+          type: text
         - name: "┊・⚙️・настройки-сервера"
-          type: "text"
+          type: text
 
     - name: "📥 | Поступление в ФСВНГ"
-      type: "category"
       channels:
         - name: "┊・📝・заявление-на-службу"
-          type: "text"
+          type: text
         - name: "┊・📝・заявление-на-перевод"
-          type: "text"
+          type: text
 
     - name: "🎙️ | Голосовые каналы"
-      type: "category"
       channels:
         - name: "┊・🔊・войс-1"
-          type: "voice"
+          type: voice
         - name: "┊・🏢・1-1"
-          type: "voice"
+          type: voice
         - name: "┊・🏢・1-2"
-          type: "voice"
+          type: voice
         - name: "┊・🏢・2-1"
-          type: "voice"
+          type: voice
         - name: "┊・🏢・2-2"
-          type: "voice"
+          type: voice
         - name: "┊・🎵・музыка"
-          type: "voice"
+          type: voice
