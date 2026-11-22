@@ -1,74 +1,83 @@
+# Метаданные сервера
 server:
   name: "ФСВНГ РП"
   version: "2.0"
   description: "Сервер ФСВНГ"
-  categories:
-    - name: "⚖️ | Законодательство"
-      channels:
-        - name: "┊・📜・указы-президента"
-          type: text
-        - name: "┊・📝・правки-законодательства"
-          type: text
-        - name: "┊・📁・публичные-документы"
-          type: text
 
-    - name: "⚜️ | Команда Проекта"
-      channels:
-        - name: "┊・⚜️・правила-организации"
-          type: text
-        - name: "┊・📝・правки-правил"
-          type: text
-        - name: "┊・✅・уведомления"
-          type: text
-        - name: "┊・📢・новости-организации"
-          type: text
+# Категории и каналы (на верхнем уровне)
+categories:
+  - name: "⚖️ | Законодательство"
+    type: "category"
+    channels:
+      - name: "┊・📜・указы-президента"
+        type: "text"
+      - name: "┊・📝・правки-законодательства"
+        type: "text"
+      - name: "┊・📁・публичные-документы"
+        type: "text"
 
-    - name: "🛡️ | Дежурная Часть ФСВНГ"
-      channels:
-        - name: "┊・☎️・вызов-сотрудника"
-          type: text
-        - name: "┊・🎖️・доска-почета"
-          type: text
-        - name: "┊・📢・новости-граждан"
-          type: text
-        - name: "┊・⛔・чёрный-список-фсвнг"
-          type: text
-        - name: "┊・📢・пропаганда"
-          type: text
-        - name: "┊・💬・гражданский-чат"
-          type: text
-        - name: "┊・🏅・новенькие"
-          type: text
-        - name: "┊・🚨・жалобы-на-сотрудников"
-          type: text
+  - name: "⚜️ | Команда Проекта"
+    type: "category"
+    channels:
+      - name: "┊・⚜️・правила-организации"
+        type: "text"
+      - name: "┊・📝・правки-правил"
+        type: "text"
+      - name: "┊・✅・уведомления"
+        type: "text"
+      - name: "┊・📢・новости-организации"
+        type: "text"
 
-    - name: "🛠️ | Администрация"
-      channels:
-        - name: "┊・🔵・чат-админов"
-          type: text
-        - name: "┊・🛠️・логи-модерации"
-          type: text
-        - name: "┊・⚙️・настройки-сервера"
-          type: text
+  - name: "🛡️ | Дежурная Часть ФСВНГ"
+    type: "category"
+    channels:
+      - name: "┊・☎️・вызов-сотрудника"
+        type: "text"
+      - name: "┊・🎖️・доска-почета"
+        type: "text"
+      - name: "┊・📢・новости-граждан"
+        type: "text"
+      - name: "┊・⛔・чёрный-список-фсвнг"
+        type: "text"
+      - name: "┊・📢・пропаганда"
+        type: "text"
+      - name: "┊・💬・гражданский-чат"
+        type: "text"
+      - name: "┊・🏅・новенькие"
+        type: "text"
+      - name: "┊・🚨・жалобы-на-сотрудников"
+        type: "text"
 
-    - name: "📥 | Поступление в ФСВНГ"
-      channels:
-        - name: "┊・📝・заявление-на-службу"
-          type: text
-        - name: "┊・📝・заявление-на-перевод"
-          type: text
+  - name: "🛠️ | Администрация"
+    type: "category"
+    channels:
+      - name: "┊・🔵・чат-админов"
+        type: "text"
+      - name: "┊・🛠️・логи-модерации"
+        type: "text"
+      - name: "┊・⚙️・настройки-сервера"
+        type: "text"
 
-    - name: "🎙️ | Голосовые каналы"
-      channels:
-        - name: "┊・🔊・войс-1"
-          type: voice
-        - name: "┊・🏢・1-1"
-          type: voice
-        - name: "┊・🏢・1-2"
-          type: voice
-        - name: "┊・🏢・2-1"
-          type: voice
-        - name: "┊・🏢・2-2"
-          type: voice
-        - name: "┊・🎵・музыка"
-          type: voice
+  - name: "📥 | Поступление в ФСВНГ"
+    type: "category"
+    channels:
+      - name: "┊・📝・заявление-на-службу"
+        type: "text"
+      - name: "┊・📝・заявление-на-перевод"
+        type: "text"
+
+  - name: "🎙️ | Голосовые каналы"
+    type: "category"
+    channels:
+      - name: "┊・🔊・войс-1"
+        type: "voice"
+      - name: "┊・🏢・1-1"
+        type: "voice"
+      - name: "┊・🏢・1-2"
+        type: "voice"
+      - name: "┊・🏢・2-1"
+        type: "voice"
+      - name: "┊・🏢・2-2"
+        type: "voice"
+      - name: "┊・🎵・музыка"
+        type: "voice"
